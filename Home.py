@@ -90,24 +90,24 @@ if authentication_status:
     
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.image("/Users/vishesh/Documents/Major-Project-Deployment/S-0.jpeg", width=200)
+        st.image("S-0.jpeg", width=200)
         st.write("<p style='text-align: center; color: #73e600;'>Breast Cancer Diagnosis</p>", unsafe_allow_html=True)
     
     with col2:
-        st.image("/Users/vishesh/Documents/Major-Project-Deployment/s-1.jpeg", width=200)
+        st.image("s-1.jpeg", width=200)
         st.write("<p style='text-align: center; color: #73e600;'>Coronary Heart Disorder Diagnosis</p>", unsafe_allow_html=True)
     with col3:
-        st.image("/Users/vishesh/Documents/Major-Project-Deployment/s-2.jpeg", width=200)
+        st.image("s-2.jpeg", width=200)
         st.write("<p style='text-align: center; color: #73e600;'>Diabetes Diagnosis</p>", unsafe_allow_html=True)
     col4, col5, col6 = st.columns(3)
     with col4:
-        st.image("/Users/vishesh/Documents/Major-Project-Deployment/s-3.jpeg", width=200)
+        st.image("s-3.jpeg", width=200)
         st.write("<p style='text-align: center; color: #73e600;'>Chronic Kidney Disease Diagnosis</p>", unsafe_allow_html=True)
     with col5:
-        st.image("/Users/vishesh/Documents/Major-Project-Deployment/s-4.jpeg", width=200)
+        st.image("s-4.jpeg", width=200)
         st.write("<p style='text-align: center; color: #73e600;'>Heparus Liver Diagnosis</p>", unsafe_allow_html=True)
     with col6:
-        st.image("/Users/vishesh/Documents/Major-Project-Deployment/s-5.jpeg", width=200)
+        st.image("s-5.jpeg", width=200)
         st.write("<p style='text-align: center; color: #73e600;'>Explore DataBases and Relationships</p>", unsafe_allow_html=True)
     
         
@@ -115,7 +115,7 @@ if authentication_status:
     
     col1, col2 = st.columns(2)
     with col1:
-        st.image("/Users/vishesh/Documents/Major-Project-Deployment/1@2x.png", width=250)
+        st.image("1@2x.png", width=250)
     with col2:
         st.markdown("""<div style='text-align: justify; color: #ff8080;'>
                      Hello, I am Vishesh Gupta. I work in Data Science and Data Analysis. 
