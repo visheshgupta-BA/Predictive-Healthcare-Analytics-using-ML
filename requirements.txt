@@ -6,3 +6,5 @@ streamlit-option-menu==0.3.2
 extra-streamlit-components==0.1.56
 scipy==1.10.1
 plotly==5.9.0
+matplotlib==3.7.1
+sklearn==1.2.2
