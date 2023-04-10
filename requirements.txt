@@ -1,0 +1,7 @@
+Pillow==9.5.0
+pandas==1.5.3
+streamlit==1.20.0
+streamlit-authenticator==0.1.5
+streamlit-option-menu==0.3.2
+extra-streamlit-components==0.1.56
+scipy==1.10.1
