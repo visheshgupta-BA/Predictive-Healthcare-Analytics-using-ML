@@ -14,8 +14,6 @@ import pandas as pd
 import plotly.express as px
 import streamlit_authenticator as stauth
 
-st.set_theme('dark')
-
 
 st.set_page_config(
     page_title="Vishesh Diagnostic & Research Labs",
