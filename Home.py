@@ -67,6 +67,7 @@ if authentication_status:
     st.sidebar.success("Select a Diagnosis from above.")
     
     authenticator.logout("Logout", "sidebar")
+    st.write('-------------------------------------------------------')
 
     st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- To learn more about founder of VDRL in detail, click on this link: <a href='https://visheshgupta-ba.github.io/VisheshGupta/' style='color: red;'>https://visheshgupta-ba.github.io/VisheshGupta/</a></p>", unsafe_allow_html=True)
     
@@ -85,6 +86,8 @@ if authentication_status:
     st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- Our diagnoses are based on predictions made using machine learning algorithms. We use several different models to predict each diagnosis.</p>", unsafe_allow_html=True)
     
     # Add some more text and images to showcase your lab's services and facilities
+    st.write('-------------------------------------------------------')
+    
     st.markdown("<h2 style='color: #ff4d94;'>Our Services</h2>", unsafe_allow_html=True)
     st.write("At Vishesh Gupta's Diagnosis Labs, we offer a wide range of diagnostic services, including:")
     
