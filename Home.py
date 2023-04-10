@@ -63,12 +63,8 @@ if authentication_status == None:
     st.warning("Please enter your username and password")
 
 if authentication_status:
-
     st.sidebar.success("Select a Diagnosis from above.")
-    
     authenticator.logout("Logout", "sidebar")
-    st.write('-------------------------------------------------------')
-
     st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- To learn more about founder of VDRL in detail, click on this link: <a href='https://visheshgupta-ba.github.io/VisheshGupta/' style='color: red;'>https://visheshgupta-ba.github.io/VisheshGupta/</a></p>", unsafe_allow_html=True)
     
     st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- To provide accurate and efficient healthcare services, we specialize in diagnosing 5 healthcare issues: Breast cancer, diabetes, coronary heart disorder, liver disease, and kidney disease. These diseases are briefly described below:</p>", unsafe_allow_html=True)
