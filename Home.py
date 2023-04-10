@@ -68,21 +68,21 @@ if authentication_status:
     
     authenticator.logout("Logout", "sidebar")
 
-    st.markdown("<p style='text-align: justify; color: #3399ff; font-weight: normal;'>To learn more about founder of VDRL in detail, click on this link: <a href='https://visheshgupta-ba.github.io/VisheshGupta/' style='color: red;'>https://visheshgupta-ba.github.io/VisheshGupta/</a></p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>To learn more about founder of VDRL in detail, click on this link: <a href='https://visheshgupta-ba.github.io/VisheshGupta/' style='color: red;'>https://visheshgupta-ba.github.io/VisheshGupta/</a></p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #3399ff; font-weight: normal;'>To provide accurate and efficient healthcare services, we specialize in diagnosing 5 healthcare issues: Breast cancer, diabetes, coronary heart disorder, liver disease, and kidney disease. These diseases are briefly described below:</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>To provide accurate and efficient healthcare services, we specialize in diagnosing 5 healthcare issues: Breast cancer, diabetes, coronary heart disorder, liver disease, and kidney disease. These diseases are briefly described below:</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #3399ff; font-weight: normal;'>Breast cancer: A type of cancer that starts in the cells of the breast. It is the most common cancer among women.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Breast cancer: A type of cancer that starts in the cells of the breast. It is the most common cancer among women.</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #3399ff; font-weight: normal;'>Diabetes: A chronic condition that affects the way your body processes blood sugar (glucose).</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Diabetes: A chronic condition that affects the way your body processes blood sugar (glucose).</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #3399ff; font-weight: normal;'>Coronary heart disorder: A disease that affects the arteries that supply blood to the heart muscle. It is usually caused by a buildup of plaque in the arteries.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Coronary heart disorder: A disease that affects the arteries that supply blood to the heart muscle. It is usually caused by a buildup of plaque in the arteries.</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #3399ff; font-weight: normal;'>Liver disease: A condition that affects the liver's ability to function properly. It can be caused by viruses, alcohol use, or obesity.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Liver disease: A condition that affects the liver's ability to function properly. It can be caused by viruses, alcohol use, or obesity.</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #3399ff; font-weight: normal;'>Kidney disease: A condition in which the kidneys do not function properly. It can be caused by diabetes, high blood pressure, or other factors.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Kidney disease: A condition in which the kidneys do not function properly. It can be caused by diabetes, high blood pressure, or other factors.</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #3399ff; font-weight: normal;'>Our diagnoses are based on predictions made using machine learning algorithms. We use several different models to predict each diagnosis.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Our diagnoses are based on predictions made using machine learning algorithms. We use several different models to predict each diagnosis.</p>", unsafe_allow_html=True)
     
     # Add some more text and images to showcase your lab's services and facilities
     st.markdown("<h2 style='color: #ff4d94;'>Our Services</h2>", unsafe_allow_html=True)
@@ -91,24 +91,24 @@ if authentication_status:
     col1, col2, col3 = st.columns(3)
     with col1:
         st.image("S-0.jpeg", width=200)
-        st.write("<p style='text-align: center; color: #73e600;'>Breast Cancer Diagnosis</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center; color: #00b33c;'>Breast Cancer Diagnosis</p>", unsafe_allow_html=True)
     
     with col2:
         st.image("s-1.jpeg", width=200)
-        st.write("<p style='text-align: center; color: #73e600;'>Coronary Heart Disorder Diagnosis</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center; color: #00b33c;'>Coronary Heart Disorder Diagnosis</p>", unsafe_allow_html=True)
     with col3:
         st.image("s-2.jpeg", width=200)
-        st.write("<p style='text-align: center; color: #73e600;'>Diabetes Diagnosis</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center; color: #00b33c;'>Diabetes Diagnosis</p>", unsafe_allow_html=True)
     col4, col5, col6 = st.columns(3)
     with col4:
         st.image("s-3.jpeg", width=200)
-        st.write("<p style='text-align: center; color: #73e600;'>Chronic Kidney Disease Diagnosis</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center; color: #00b33c;'>Chronic Kidney Disease Diagnosis</p>", unsafe_allow_html=True)
     with col5:
         st.image("s-4.jpeg", width=200)
-        st.write("<p style='text-align: center; color: #73e600;'>Heparus Liver Diagnosis</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center; color: #00b33c;'>Heparus Liver Diagnosis</p>", unsafe_allow_html=True)
     with col6:
         st.image("s-5.jpeg", width=200)
-        st.write("<p style='text-align: center; color: #73e600;'>Explore DataBases and Relationships</p>", unsafe_allow_html=True)
+        st.write("<p style='text-align: center; color: #00b33c;'>Explore DataBases and Relationships</p>", unsafe_allow_html=True)
     
         
     st.markdown("<h2 style='color: #ff4d94;'>VDRL Founder</h2>", unsafe_allow_html=True)
