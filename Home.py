@@ -34,7 +34,7 @@ st.markdown("<h1 style='text-align: center; color: #e6005c;'>Vishesh Diagnostic 
 st.write("<p style='font-size: medium;'>@ Created by Vishesh Gupta</p>", unsafe_allow_html=True)
 
 st.write("""
-        <div style="text-align: justify; color: #3399ff; font-weight: bold;">
+        <div style="text-align: justify; color: #1a1aff; font-weight: bold;">
             <p>
             Vishesh Diagnostics and Research labs began its operations in 2023 from Northeastern University, Boston, and has become a pioneer in the field of Health, Data, and Machine Learning. The journey began with a lab and predictions of diagnosis, and has today reached a stage where VDRL is in the top league in terms of the range and quality of diagnostic facilities, with the capability to perform more than 100 tests in-house. Vishesh Diagnostic & Research Centre offers a complete range of diagnostic facilities.
             </p>
