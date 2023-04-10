@@ -61,9 +61,7 @@ if authentication_status:
     
     # Diabetes Mellitus Diagnosis Tool
     
-    
-    
-    image = Image.open('/Users/vishesh/Documents/Major-Project-Deployment/black-image.jpeg')
+   
     
     
     
