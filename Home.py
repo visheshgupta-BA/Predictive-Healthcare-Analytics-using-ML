@@ -110,7 +110,7 @@ if authentication_status:
         st.image("s-5.jpeg", width=200)
         st.write("<p style='text-align: center; color: #00b33c;'>Explore DataBases and Relationships</p>", unsafe_allow_html=True)
     
-        
+    st.write('-------------------------------------------------------')
     st.markdown("<h2 style='color: #ff4d94;'>VDRL Founder</h2>", unsafe_allow_html=True)
     
     col1, col2 = st.columns(2)
