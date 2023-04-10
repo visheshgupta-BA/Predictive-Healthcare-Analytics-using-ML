@@ -59,9 +59,9 @@ if authentication_status:
     
     
     # Create the images
-    image1 = Image.open('/Users/vishesh/Documents/Major-Project-Deployment/liver0.jpeg')
-    image2 = Image.open('/Users/vishesh/Documents/Major-Project-Deployment/liver1.jpeg')
-    image3 = Image.open('/Users/vishesh/Documents/Major-Project-Deployment/liver2.jpeg')
+    image1 = Image.open('liver0.jpeg')
+    image2 = Image.open('liver1.jpeg')
+    image3 = Image.open('liver2.jpeg')
     
     # Create three columns in a container
     col1, col2, col3 = st.columns(3)
