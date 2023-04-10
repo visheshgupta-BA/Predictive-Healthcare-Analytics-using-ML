@@ -88,7 +88,7 @@ if authentication_status:
     
         
     elif dataset == 'Sugar Diabetes':
-        df_sugar = pd.read_csv('/Users/vishesh/Documents/Major-Project-Deployment/sugar_diabetes.csv')
+        df_sugar = pd.read_csv('sugar_diabetes.csv')
         st.dataframe(df_sugar) 
         st.write("""
         ### Summary Statistics
@@ -113,7 +113,7 @@ if authentication_status:
         st.plotly_chart(fig2)
         
     elif dataset == 'Kidney':
-        df_kidney = pd.read_csv('/Users/vishesh/Documents/Major-Project-Deployment/kidney_disease.csv')
+        df_kidney = pd.read_csv('kidney_disease.csv')
         st.dataframe(df_kidney)
         st.write("""
         ### Summary Statistics
@@ -128,7 +128,7 @@ if authentication_status:
         st.plotly_chart(fig)
         
     elif dataset == 'Liver':
-        df_liver = pd.read_csv('/Users/vishesh/Documents/Major-Project-Deployment/indian_liver_patient.csv')
+        df_liver = pd.read_csv('indian_liver_patient.csv')
         st.dataframe(df_liver)
         st.write("""
         ### Summary Statistics
@@ -162,7 +162,7 @@ if authentication_status:
     
         
     else:
-        df_chd = pd.read_csv('/Users/vishesh/Documents/Major-Project-Deployment/heart.csv')
+        df_chd = pd.read_csv('heart.csv')
         st.dataframe(df_chd)
         st.write("""
         ### Summary Statistics
