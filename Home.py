@@ -68,21 +68,21 @@ if authentication_status:
     
     authenticator.logout("Logout", "sidebar")
 
-    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>To learn more about founder of VDRL in detail, click on this link: <a href='https://visheshgupta-ba.github.io/VisheshGupta/' style='color: red;'>https://visheshgupta-ba.github.io/VisheshGupta/</a></p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- To learn more about founder of VDRL in detail, click on this link: <a href='https://visheshgupta-ba.github.io/VisheshGupta/' style='color: red;'>https://visheshgupta-ba.github.io/VisheshGupta/</a></p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>To provide accurate and efficient healthcare services, we specialize in diagnosing 5 healthcare issues: Breast cancer, diabetes, coronary heart disorder, liver disease, and kidney disease. These diseases are briefly described below:</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- To provide accurate and efficient healthcare services, we specialize in diagnosing 5 healthcare issues: Breast cancer, diabetes, coronary heart disorder, liver disease, and kidney disease. These diseases are briefly described below:</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Breast cancer: A type of cancer that starts in the cells of the breast. It is the most common cancer among women.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- Breast cancer: A type of cancer that starts in the cells of the breast. It is the most common cancer among women.</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Diabetes: A chronic condition that affects the way your body processes blood sugar (glucose).</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- Diabetes: A chronic condition that affects the way your body processes blood sugar (glucose).</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Coronary heart disorder: A disease that affects the arteries that supply blood to the heart muscle. It is usually caused by a buildup of plaque in the arteries.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- Coronary heart disorder: A disease that affects the arteries that supply blood to the heart muscle. It is usually caused by a buildup of plaque in the arteries.</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Liver disease: A condition that affects the liver's ability to function properly. It can be caused by viruses, alcohol use, or obesity.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- Liver disease: A condition that affects the liver's ability to function properly. It can be caused by viruses, alcohol use, or obesity.</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Kidney disease: A condition in which the kidneys do not function properly. It can be caused by diabetes, high blood pressure, or other factors.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- Kidney disease: A condition in which the kidneys do not function properly. It can be caused by diabetes, high blood pressure, or other factors.</p>", unsafe_allow_html=True)
     
-    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>Our diagnoses are based on predictions made using machine learning algorithms. We use several different models to predict each diagnosis.</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: justify; color: #1a1aff; font-weight: normal;'>- Our diagnoses are based on predictions made using machine learning algorithms. We use several different models to predict each diagnosis.</p>", unsafe_allow_html=True)
     
     # Add some more text and images to showcase your lab's services and facilities
     st.markdown("<h2 style='color: #ff4d94;'>Our Services</h2>", unsafe_allow_html=True)
